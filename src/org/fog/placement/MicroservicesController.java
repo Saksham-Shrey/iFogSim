@@ -221,6 +221,8 @@ public class MicroservicesController extends SimEntity {
                 printQoSDetails();
                 System.exit(0);
                 break;
+            default:
+                throw new IllegalStateException("Unexpected value: " + ev.getTag());
         }
 
     }
