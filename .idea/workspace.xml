@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9dd0b5d-487c-4680-a57f-434d3aedd814" name="Changes" comment="git ignote updated and files are ready to merge" />
+    <list default="true" id="d9dd0b5d-487c-4680-a57f-434d3aedd814" name="Changes" comment="git ignote updated and files are ready to merge">
+      <change beforePath="$PROJECT_DIR$/src/org/fog/utils/distribution/Distribution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/fog/utils/distribution/Distribution.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,11 +45,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CardiovascularHealthMonitoringApplication.executor": "Run",
+    "Application.MultiSensorExample.executor": "Run",
     "Application.TranslationServiceFog_Clustering.executor": "Run",
     "Application.TwoApps.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Lab-03--Sensors-with-different-Tuple-Emission-Rates",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -66,9 +69,22 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TranslationServiceFog_Clustering">
+  <component name="RunManager" selected="Application.MultiSensorExample">
     <configuration name="CardiovascularHealthMonitoringApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.fog.test.perfeval.CardiovascularHealthMonitoringApplication" />
+      <module name="iFogSim_7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fog.test.perfeval.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiSensorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fog.test.perfeval.MultiSensorExample" />
       <module name="iFogSim_7" />
       <extension name="coverage">
         <pattern>
@@ -107,12 +123,14 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.MultiSensorExample" />
       <item itemvalue="Application.CardiovascularHealthMonitoringApplication" />
       <item itemvalue="Application.TranslationServiceFog_Clustering" />
       <item itemvalue="Application.TwoApps" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultiSensorExample" />
         <item itemvalue="Application.TranslationServiceFog_Clustering" />
         <item itemvalue="Application.TwoApps" />
         <item itemvalue="Application.CardiovascularHealthMonitoringApplication" />
